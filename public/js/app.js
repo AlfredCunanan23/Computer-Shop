@@ -5730,7 +5730,7 @@ __webpack_require__.r(__webpack_exports__);
     create: function create() {
       var _this = this;
 
-      this.axios.post('/api/order/make', this.order).then(function (response) {
+      this.axios.post('/api/order/', this.order).then(function (response) {
         _this.$router.push('/orders');
       })["catch"](function (error) {
         console.log(error);
@@ -6444,7 +6444,7 @@ var render = function render() {
     staticClass: "btn btn-warning col-1",
     attrs: {
       to: {
-        name: "order"
+        name: "orders"
       }
     }
   }, [_vm._v("Cancel")]), _vm._v(" "), _c("button", {

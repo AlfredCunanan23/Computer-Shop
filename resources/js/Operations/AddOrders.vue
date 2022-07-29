@@ -27,7 +27,7 @@
                                 </div>
                             </div>
                             <div class="col-12 mb-2">
-                                <router-link :to='{name:"order"}' class="btn btn-warning col-1">Cancel</router-link>
+                                <router-link :to='{name:"orders"}' class="btn btn-warning col-1">Cancel</router-link>
                                 <button type="submit" class="btn btn-secondary col-1">Save</button>
                             </div>
                         </div>
@@ -53,7 +53,7 @@ export default{
     },
     methods:{
         create(){
-            this.axios.post('/api/order/make', this.order).then(response=>{
+            this.axios.post('/api/order/', this.order).then(response=>{
                 this.$router.push('/orders')
             }).catch(error=>{
                 console.log(error)
