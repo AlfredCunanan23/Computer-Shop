@@ -1,9 +1,7 @@
 <template>
 <v-app>
-
     <section>
         <main>
-            
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-4" style="top: 7%;">
                 <div class="container-fluid">
                     <router-link to="/home" class="navbar-brand">Computer Shop || Crud</router-link>
@@ -50,16 +48,14 @@
             <!--content end-->
     
         </main>
-    
+        <!-- FOOTER -->
         <footer class="bg-dark text-center text-white p-4">
-    
-      <!-- Copyright -->
             <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
                     © 2020 Copyright:
                  <a class="foot" href="/home">Comshop.com/ComputerShop</a>
             </div>
-      <!-- Copyright -->
         </footer>
+        <!-- FOOTER END -->
     </section>
 </v-app>
     
