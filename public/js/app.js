@@ -7517,9 +7517,9 @@ var staticRenderFns = [function () {
 
   return _c("section", [_c("div", [_c("h1", [_vm._v("Computer Shop || Contact Us Here")]), _vm._v(" "), _c("br"), _vm._v(" "), _c("p", [_vm._v("For any inquiries please contact this number: "), _c("a", {
     staticClass: "text-primary"
-  }, [_vm._v("09694569369/09123456789 ")])]), _vm._v(" "), _c("p", [_vm._v("You may also contact us in our social media accounts:\n        "), _c("br"), _vm._v("\n        Facebook: "), _c("a", {
+  }, [_vm._v("09694569369/09123456789 ")])]), _vm._v(" "), _c("p", [_vm._v("You may also contact us in our social media accounts:\n          "), _c("br"), _vm._v("\n          Facebook: "), _c("a", {
     staticClass: "text-primary"
-  }, [_vm._v("www.facebook.com/ComputerShop")]), _vm._v(" "), _c("br"), _vm._v("\n        Email: "), _c("a", {
+  }, [_vm._v("www.facebook.com/ComputerShop")]), _vm._v(" "), _c("br"), _vm._v("\n          Email: "), _c("a", {
     staticClass: "text-primay"
   }, [_vm._v("comshop2022@gmail.com")])])])]);
 }];

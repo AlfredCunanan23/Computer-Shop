@@ -4,7 +4,6 @@
             <br/>
             <div class="card bg-dark text-light">
                 <div class="card-header">
-                    
                     <h4>Add Product</h4>
                 </div>
                 <div class="card-body">

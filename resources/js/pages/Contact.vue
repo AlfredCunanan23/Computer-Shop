@@ -5,12 +5,11 @@
     <br>
         <p>For any inquiries please contact this number: <a class="text-primary">09694569369/09123456789 </a></p>
         <p>You may also contact us in our social media accounts:
-          <br>
-          Facebook: <a class="text-primary">www.facebook.com/ComputerShop</a>
-          <br>
-          Email: <a class="text-primay">comshop2022@gmail.com</a>
+            <br>
+            Facebook: <a class="text-primary">www.facebook.com/ComputerShop</a>
+            <br>
+            Email: <a class="text-primay">comshop2022@gmail.com</a>
         </p>
-        
     </div>
   </section>
   

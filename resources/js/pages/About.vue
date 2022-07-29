@@ -1,30 +1,28 @@
 <template>
   <div>
-    <h1>Want to know more about US?</h1>
-      <br>
-        <p class="p2">HERE YOU CAN FIND DIFFERENT TYPES OF COMPUTER!</p>
-
-    <div class="container2">
-        <div class="card1">
-              <img src="../../../asset/pic1.png" alt="Avatar" style="width:100%">
-            <div class="container1">
-              <h4 class="hd4"><b>OFFICE COMPUTERS</b></h4>
-            </div>
-        </div>
+        <h1>Want to know more about US?</h1>
+          <br>
+            <p class="p2">HERE YOU CAN FIND DIFFERENT TYPES OF COMPUTER!</p>
+        <div class="container2">
             <div class="card1">
-              <img src="../../../asset/pic1.png" alt="Avatar" style="width:100%">
-            <div class="container1">
-              <h4 class="hd4"><b>GAMING COMPUTERS</b></h4>
+                  <img src="../../../asset/pic1.png" alt="Avatar" style="width:100%">
+                <div class="container1">
+                  <h4 class="hd4"><b>OFFICE COMPUTERS</b></h4>
+                </div>
             </div>
-        </div>
             <div class="card1">
-              <img src="../../../asset/pic1.png" alt="Avatar" style="width:100%">
-            <div class="container1">
-              <h4 class="hd4"><b>STUDY COMPUTERS</b></h4>
+                  <img src="../../../asset/pic1.png" alt="Avatar" style="width:100%">
+                <div class="container1">
+                  <h4 class="hd4"><b>GAMING COMPUTERS</b></h4>
+                </div>
+            </div>
+            <div class="card1">
+                  <img src="../../../asset/pic1.png" alt="Avatar" style="width:100%">
+                <div class="container1">
+                  <h4 class="hd4"><b>STUDY COMPUTERS</b></h4>
+            </div>
             </div>
         </div>
-    </div>
-    
   </div>
 </template>
 
