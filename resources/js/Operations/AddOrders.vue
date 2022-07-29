@@ -1,6 +1,6 @@
 <template>
     <div class="row">
-        <div class="col-12">
+        <div class="col-14">
             <div class="card bg-dark text-light">
                 <div class="card-header">
                     <h4>Add Order</h4>

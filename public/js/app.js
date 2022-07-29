@@ -6349,7 +6349,7 @@ var render = function render() {
   return _c("div", {
     staticClass: "row"
   }, [_c("div", {
-    staticClass: "col-12"
+    staticClass: "col-14"
   }, [_c("div", {
     staticClass: "card bg-dark text-light"
   }, [_vm._m(0), _vm._v(" "), _c("div", {
@@ -7100,7 +7100,7 @@ var render = function render() {
     attrs: {
       to: "/orders"
     }
-  }, [_vm._v("Order List")])], 1)])])])])], 1)]), _vm._v(" "), _c("br"), _vm._v(" "), _c("br"), _vm._v(" "), _c("br"), _vm._v(" "), _c("div", {
+  }, [_vm._v("Order List")])], 1)])])])])], 1)]), _vm._v(" "), _c("br"), _vm._v(" "), _c("br"), _vm._v(" "), _c("br"), _vm._v(" "), _c("br"), _vm._v(" "), _c("div", {
     staticClass: "container"
   }, [_c("router-view")], 1)]), _vm._v(" "), _c("footer", {
     staticClass: "bg-dark text-center text-white p-4"
@@ -7142,7 +7142,7 @@ var render = function render() {
   return _c("div", {
     staticClass: "row"
   }, [_c("div", {
-    staticClass: "col-12 mb-2 text-end"
+    staticClass: "col-4 mb-2 text-end"
   }, [_c("router-link", {
     staticClass: "btn btn-dark",
     attrs: {
@@ -7151,7 +7151,7 @@ var render = function render() {
       }
     }
   }, [_vm._v("Add Order")])], 1), _vm._v(" "), _c("div", {
-    staticClass: "col-12"
+    staticClass: "col-4"
   }, [_c("div", {
     staticClass: "card bg-secondary"
   }, [_vm._m(0), _vm._v(" "), _c("div", {
@@ -7159,21 +7159,14 @@ var render = function render() {
   }, [_c("div", {
     staticClass: "table-responsive"
   }, [_c("table", {
-    staticClass: "table table-dark table-striped"
+    staticClass: "table table-dark table-striped",
+    staticStyle: {
+      "text-align": "center"
+    }
   }, [_vm._m(1), _vm._v(" "), _vm.orders.length > 0 ? _c("tbody", _vm._l(_vm.orders, function (order, key) {
     return _c("tr", {
       key: key
-    }, [_c("td", [_vm._v(_vm._s(order.id))]), _vm._v(" "), _c("td", [_vm._v(_vm._s(order.customer_id))]), _vm._v(" "), _c("td", [_vm._v(_vm._s(order.total))]), _vm._v(" "), _c("td", [_c("router-link", {
-      staticClass: "btn btn-success text-light",
-      attrs: {
-        to: {
-          name: "editOrder",
-          params: {
-            id: order.id
-          }
-        }
-      }
-    }, [_vm._v("Edit")]), _vm._v(" "), _c("button", {
+    }, [_c("td", [_vm._v(_vm._s(order.id))]), _vm._v(" "), _c("td", [_vm._v(_vm._s(order.customer_id))]), _vm._v(" "), _c("td", [_vm._v(_vm._s(order.total))]), _vm._v(" "), _c("td", [_c("button", {
       staticClass: "btn btn-danger",
       attrs: {
         type: "button"
@@ -7183,7 +7176,7 @@ var render = function render() {
           return _vm.deleteOrder(order.id);
         }
       }
-    }, [_vm._v("Delete")])], 1)]);
+    }, [_vm._v("Delete")])])]);
   }), 0) : _c("tbody", [_vm._m(2)])])])])])])]);
 };
 

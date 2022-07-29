@@ -1,17 +1,17 @@
 <template>
     <div class="row">
-        <div class="col-12 mb-2 text-end">
+        <div class="col-4 mb-2 text-end">
             <router-link :to='{name:"addOrder"}' class="btn btn-dark">Add Order</router-link>
         </div>
                 <!-- TABLE -->
-        <div class="col-12">
+        <div class="col-4">
             <div class="card bg-secondary">
                 <div class="card-header">
                     <h2>List Of Orders</h2>
                 </div>
                 <div class="card-body bg-dark">
                     <div class="table-responsive">
-                        <table class="table table-dark table-striped">
+                        <table class="table table-dark table-striped" style="text-align:center">
                             <thead>
                                 <tr>
                                     <th>ID</th>
@@ -26,7 +26,6 @@
                                     <td>{{ order.customer_id }}</td>
                                     <td>{{ order.total }}</td>
                                     <td>
-                                        <router-link :to='{ name:"editOrder" , params:{ id:order.id } }' class="btn btn-success text-light">Edit</router-link>
                                         <button type="button" @click="deleteOrder(order.id)" class="btn btn-danger">Delete</button>
                                     </td>
                                 </tr>

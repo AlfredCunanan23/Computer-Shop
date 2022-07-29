@@ -24,6 +24,7 @@ class OrderController extends Controller
         $orders = Order::find($id);
         return $orders;
     }
+
     public function create()
     {
         //

@@ -47,8 +47,9 @@ Route::middleware('api')->group(function () {
 
 //OrderConttroller
 Route::get("order/index", [OrderController::class, "index"]);
-Route::get("order/{id}", [OrderController::class, "show"]);
+Route::get("order/show/{id}", [OrderController::class, "show"]);
 Route::post("order/make", [OrderController::class, "make"]);
+Route::put("order/edit/{id}", [OrderController::class, "edit"]);
 Route::put("order/update/{id}", [OrderController::class, "update"]);
 Route::delete("order/delete/{order_id}", [OrderController::class, "destroy"]);
 
