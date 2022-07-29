@@ -15262,7 +15262,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\nh1{\n  font-size: 60px;\n  text-align: start;\n  color: rgb(24, 21, 21);\n}\np{\n  font-size: 20px;\n  padding-left: 10%;\n  text-align:justify;\n  color: rgb(231, 225, 225);\n}\n\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\nh1{\n  font-size: 60px;\n  text-align: start;\n  color: rgb(24, 21, 21);\n}\np{\n  font-size: 20px;\n  padding-left: 15%;\n  text-align:justify;\n  color: rgb(231, 225, 225);\n}\n\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
