@@ -32,9 +32,9 @@ h1{
 }
 p{
   font-size: 20px;
-  padding-left: 15%;
+  padding-left: 20%;
   text-align:justify;
-  color: rgb(231, 225, 225);
+  color: rgb(252, 250, 250);
 }
 
 </style>
