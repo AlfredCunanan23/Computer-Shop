@@ -6533,6 +6533,10 @@ var render = function render() {
     }
   }, [_c("option", {
     attrs: {
+      value: "WHOLE SET"
+    }
+  }, [_vm._v("WHOLE SET")]), _vm._v(" "), _c("option", {
+    attrs: {
       value: "CPU"
     }
   }, [_vm._v("CPU")]), _vm._v(" "), _c("option", {
@@ -6547,11 +6551,7 @@ var render = function render() {
     attrs: {
       value: "MOUSE"
     }
-  }, [_vm._v("MOUSE")]), _vm._v(" "), _c("option", {
-    attrs: {
-      value: "WHOLE SET"
-    }
-  }, [_vm._v("WHOLE SET")])])])]), _vm._v(" "), _c("div", {
+  }, [_vm._v("MOUSE")])])])]), _vm._v(" "), _c("div", {
     staticClass: "col-12 mb-2"
   }, [_c("div", {
     staticClass: "form-group"
@@ -7252,7 +7252,7 @@ var render = function render() {
   }, [_c("v-select", {
     staticClass: "mt-5",
     attrs: {
-      items: ["ALL", "CPU", "MONITOR", "KEYBOARD", "MOUSE", "WHOLE SET"],
+      items: ["ALL", "WHOLE SET", "CPU", "MONITOR", "KEYBOARD", "MOUSE"],
       label: "Parts"
     },
     on: {

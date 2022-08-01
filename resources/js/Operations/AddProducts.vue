@@ -13,11 +13,11 @@
                                 <div class="form-group">
                                     <label>Part</label>
                             <select class="form-select" aria-label="Default select example" v-model="product.part">
+                                     <option value="WHOLE SET">WHOLE SET</option>
                                      <option value="CPU">CPU</option>
                                      <option value="MONITOR">MONITOR</option>
                                      <option value="KEYBOARD">KEYBOARD</option>
                                      <option value="MOUSE">MOUSE</option>
-                                     <option value="WHOLE SET">WHOLE SET</option>
                             </select>
                                 </div>
                             </div>
