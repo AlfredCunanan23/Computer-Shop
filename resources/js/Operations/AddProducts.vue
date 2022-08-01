@@ -17,6 +17,7 @@
                                      <option value="MONITOR">MONITOR</option>
                                      <option value="KEYBOARD">KEYBOARD</option>
                                      <option value="MOUSE">MOUSE</option>
+                                     <option value="WHOLE SET">WHOLE SET</option>
                             </select>
                                 </div>
                             </div>

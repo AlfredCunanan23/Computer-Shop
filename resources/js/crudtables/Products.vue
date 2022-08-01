@@ -14,7 +14,7 @@
                         sm="6"
                         color="white">
                     <v-select
-                        :items="['ALL', 'CPU', 'MONITOR', 'KEYBOARD', 'MOUSE']"
+                        :items="['ALL', 'CPU', 'MONITOR', 'KEYBOARD', 'MOUSE', 'WHOLE SET']"
                         label="Parts" 
                         v-model="part"
                         class="mt-5"
